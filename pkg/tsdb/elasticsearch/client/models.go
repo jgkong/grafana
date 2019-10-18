@@ -250,6 +250,7 @@ type DateHistogramAgg struct {
 	ExtendedBounds *ExtendedBounds `json:"extended_bounds"`
 	Format         string          `json:"format"`
 	Offset         string          `json:"offset,omitempty"`
+	Script         string          `json:"script"`
 }
 
 // FiltersAggregation represents a filters aggregation
